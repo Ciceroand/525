@@ -1,0 +1,6 @@
+
+- name: executando a playbook de pre-requisitos
+  hosts: docker
+  roles:
+   - pre-docker
+
